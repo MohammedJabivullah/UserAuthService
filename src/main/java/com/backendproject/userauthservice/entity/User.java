@@ -7,7 +7,7 @@ import lombok.Setter;
 
 import java.util.*;
 
-@Entity(name = "ECOM_USER")
+@Entity(name = "USER")
 @Getter
 @Setter
 public class User extends BaseModel{
