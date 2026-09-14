@@ -7,14 +7,14 @@ import lombok.Setter;
 
 import java.util.*;
 
-@Entity(name = "USER")
+@Entity(name = "Service_User")
 @Getter
 @Setter
-public class User extends BaseModel{
+public class User extends BaseModel {
     private String name;
     private String emailId;
     private String password;  // to be stored Hashed code.
     @ManyToMany
-    private List<Role> role;
+    private List<Role> roles;
 
 }
